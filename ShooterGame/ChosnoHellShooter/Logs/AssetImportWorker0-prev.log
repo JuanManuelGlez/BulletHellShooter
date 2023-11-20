@@ -1,0 +1,424 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/rodri/OneDrive/Documentos/Personales/Chosno/ShooterGame/ChosnoHellShooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55870
+Successfully changed project path to: C:/Users/rodri/OneDrive/Documentos/Personales/Chosno/ShooterGame/ChosnoHellShooter
+C:/Users/rodri/OneDrive/Documentos/Personales/Chosno/ShooterGame/ChosnoHellShooter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7716] Host "[IP] 192.168.100.121 [Port] 0 [Flags] 2 [Guid] 2059943560 [EditorId] 2059943560 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ISQ203MB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7716] Host "[IP] 192.168.100.121 [Port] 0 [Flags] 2 [Guid] 2059943560 [EditorId] 2059943560 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-ISQ203MB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 110.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rodri/OneDrive/Documentos/Personales/Chosno/ShooterGame/ChosnoHellShooter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9bc4)
+    Vendor:   Intel
+    VRAM:     8107 MB
+    Driver:   27.20.100.8280
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016756 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 118.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Domain Reload Profiling:
+	ReloadAssembly (957ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (646ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (118ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009471 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\rodri\OneDrive\Documentos\Personales\Chosno\ShooterGame\ChosnoHellShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\rodri\OneDrive\Documentos\Personales\Chosno\ShooterGame\ChosnoHellShooter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1798ms)
+		BeginReloadAssembly (209ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1412ms)
+			LoadAssemblies (169ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (768ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (576ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3047 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (113.4 KB). Loaded Objects now: 3507.
+Memory consumption went from 108.4 MB to 108.3 MB.
+Total: 4.399500 ms (FindLiveObjects: 0.450200 ms CreateObjectMapping: 0.271700 ms MarkObjects: 3.556700 ms  DeleteObjects: 0.119800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 472180.557314 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/2.2.prefab
+  artifactKey: Guid(458f67c199376214eb84916966ce6933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/2.2.prefab using Guid(458f67c199376214eb84916966ce6933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec1b249cb95e47eb48d270e1e270563') in 0.482092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/9.5.prefab
+  artifactKey: Guid(433d8a2e5f58efd488f42dcc16cece8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/9.5.prefab using Guid(433d8a2e5f58efd488f42dcc16cece8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db5830a9fc86e1cf414b2c77090de47d') in 0.024333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/8.1.prefab
+  artifactKey: Guid(06b1719f3e8a809468cb747aac74807f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/8.1.prefab using Guid(06b1719f3e8a809468cb747aac74807f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a005ea94f30406ac1cbefc2b0284832c') in 0.025702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/9.4.prefab
+  artifactKey: Guid(1cc06d81508321541980f26dc5045697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/9.4.prefab using Guid(1cc06d81508321541980f26dc5045697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d86e11d0f7a7f851c3b168b0508434') in 0.021946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/3.2.prefab
+  artifactKey: Guid(951c81cd67c4d914abf2cb48f85ac47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/3.2.prefab using Guid(951c81cd67c4d914abf2cb48f85ac47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52dd1edb71d433741a7410398c787a84') in 0.024402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/4.5.prefab
+  artifactKey: Guid(c064b03b28ce92447a43f1258def3452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/4.5.prefab using Guid(c064b03b28ce92447a43f1258def3452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dbd5be8bf723b5594d933d96d0ba0e') in 0.025368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/3.4.prefab
+  artifactKey: Guid(1abf518f34308ee438853f9754b5c5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/3.4.prefab using Guid(1abf518f34308ee438853f9754b5c5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1832fe0740d3b5108a91f590609ea70') in 0.023348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/2.4.prefab
+  artifactKey: Guid(07515c5236664774c97113c3c64aff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/2.4.prefab using Guid(07515c5236664774c97113c3c64aff96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec487543eb650228018efaa5692fb84') in 0.025133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/1.4.prefab
+  artifactKey: Guid(a086ec1eb3b77a842acf8337b9e73d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/1.4.prefab using Guid(a086ec1eb3b77a842acf8337b9e73d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28b1e4ed4273982aa6669fa33d871b4') in 0.023756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/8.4.prefab
+  artifactKey: Guid(94649bfde9ab29148b7741b6ec0b7d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/8.4.prefab using Guid(94649bfde9ab29148b7741b6ec0b7d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c8b29a95cfed6be70605506f4bd230') in 0.032476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/1.3.prefab
+  artifactKey: Guid(3d9ce70bd167b71469f5ab332d2c2f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/1.3.prefab using Guid(3d9ce70bd167b71469f5ab332d2c2f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768f28e889cdb7f3865559cfc856d336') in 0.025099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/10.3.prefab
+  artifactKey: Guid(49e7685687bdfe5439ccc63b03546fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/10.3.prefab using Guid(49e7685687bdfe5439ccc63b03546fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af8d915562ef6f03cc19d1deebe0f1f') in 0.028183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/6.3.prefab
+  artifactKey: Guid(72dc4f7f63f4f484f99c7ec75dd94b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/6.3.prefab using Guid(72dc4f7f63f4f484f99c7ec75dd94b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab240bf33e73f134507992103ab59641') in 0.028126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/2.1.prefab
+  artifactKey: Guid(311599e2534effb4fbb4eead92e22bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/2.1.prefab using Guid(311599e2534effb4fbb4eead92e22bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a2b633c7ba31b238b54154cf46c03a') in 0.026760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/5.1.prefab
+  artifactKey: Guid(ff23e3972c8602b4e87bf04fe4395c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/5.1.prefab using Guid(ff23e3972c8602b4e87bf04fe4395c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92d307273e53cdd7ef99c22c7793a6c') in 0.025209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/10.2.prefab
+  artifactKey: Guid(35614d4c95c3f45438fb17a79ef8a73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/10.2.prefab using Guid(35614d4c95c3f45438fb17a79ef8a73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b12fa7ce6cd24bfb3ff10b8a7da248') in 0.025229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/4.3.prefab
+  artifactKey: Guid(d49ae8b90f186ca4c867bf17646945e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/4.3.prefab using Guid(d49ae8b90f186ca4c867bf17646945e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6673695ae56504c76e05e77d54df05ed') in 0.025005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/4.1.prefab
+  artifactKey: Guid(8830d72630a2eea418d0456716001425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/4.1.prefab using Guid(8830d72630a2eea418d0456716001425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54bc99aed290fdbf6b0e04676eee7046') in 0.025959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/8.3.prefab
+  artifactKey: Guid(dfa0ffded8acc8c47b5c47fd6f8ec232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/8.3.prefab using Guid(dfa0ffded8acc8c47b5c47fd6f8ec232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c575325a498e3770f8d8df9188bc619') in 0.025877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/7.1.prefab
+  artifactKey: Guid(62990642302a7cc498dad6b168295e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/7.1.prefab using Guid(62990642302a7cc498dad6b168295e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c10fcfcae02cbda2c2af2d240d0913e') in 0.026498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/6.2.prefab
+  artifactKey: Guid(db11e951d5871974b8b250cb92a6838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/6.2.prefab using Guid(db11e951d5871974b8b250cb92a6838e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6df468a5ee2eb108281aa4b41d03651') in 0.027833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/2.3.prefab
+  artifactKey: Guid(f5a6c5090f1731840b4fcee44b791f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/2.3.prefab using Guid(f5a6c5090f1731840b4fcee44b791f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782db474f877f0fc008787d2c397c6aa') in 0.025022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/6.4.prefab
+  artifactKey: Guid(848d068fd78caf24eacc82ca673b8d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/6.4.prefab using Guid(848d068fd78caf24eacc82ca673b8d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8580a2f48e912eea43eaee6d8322bf22') in 0.023023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/3.3.prefab
+  artifactKey: Guid(8116cd1d77578a54eb458577fb1fe746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/3.3.prefab using Guid(8116cd1d77578a54eb458577fb1fe746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40aad6493b8e0c02f7626a8c044c4845') in 0.022668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/3.1.prefab
+  artifactKey: Guid(759dff70eb5bd9248bb05b82a5e93cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/3.1.prefab using Guid(759dff70eb5bd9248bb05b82a5e93cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f82948a2b61eeadfedd84051fad676') in 0.032907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/1.2.prefab
+  artifactKey: Guid(edf23adcd828e9045a3f60167c62f2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/1.2.prefab using Guid(edf23adcd828e9045a3f60167c62f2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921fa92f10d7a972dbcba443bd3a5486') in 0.023220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/9.3.prefab
+  artifactKey: Guid(2ac4a85a4ad83ea48b81ca9c68132cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/9.3.prefab using Guid(2ac4a85a4ad83ea48b81ca9c68132cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49550e22e0429ed9fb6990c12f295517') in 0.025017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/7.5.prefab
+  artifactKey: Guid(beea28c2a20a7da49ad215255865d862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/7.5.prefab using Guid(beea28c2a20a7da49ad215255865d862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe88605cc0c5b1744dea857a60e8f8a') in 0.024036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.682143 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/10.5.prefab
+  artifactKey: Guid(9acebd848c5e80240a98c64dcef3d2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/10.5.prefab using Guid(9acebd848c5e80240a98c64dcef3d2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b918835cb36a93bef0c628fdbf9946') in 0.025207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/12.5.prefab
+  artifactKey: Guid(8123007ec7af9a341b1beb86b7dea76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/12.5.prefab using Guid(8123007ec7af9a341b1beb86b7dea76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257577773994dac543d1a3294fa4d49b') in 0.022837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/12.2.prefab
+  artifactKey: Guid(e215d4550353d0948be4d3f890efed0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/12.2.prefab using Guid(e215d4550353d0948be4d3f890efed0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa87f7ab8a9e048258126aedb76e5b2') in 0.024934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/12.4.prefab
+  artifactKey: Guid(745a77cdc3b71b24cbf3595622c5d198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/12.4.prefab using Guid(745a77cdc3b71b24cbf3595622c5d198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af82ce6314810b1cb5709e4f6c092ae4') in 0.036336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/11.4.prefab
+  artifactKey: Guid(5b34bcd7054ce124f9b8d6bcbec50170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/11.4.prefab using Guid(5b34bcd7054ce124f9b8d6bcbec50170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdfc896619c6cd6122b1a2fba341468') in 0.024668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/11.2.prefab
+  artifactKey: Guid(de81c4cc4a723254cba1427028cca900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/11.2.prefab using Guid(de81c4cc4a723254cba1427028cca900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c00ba6c877f00c890ac6d284c2cc7f') in 0.023958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.526720 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/13.2.prefab
+  artifactKey: Guid(d224cae57ff108e4496928bf6ec7f025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/13.2.prefab using Guid(d224cae57ff108e4496928bf6ec7f025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c3dbbb42cf69e5868d7d191f08638b') in 0.025923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Treys/Spaceships/Prefabs/13.4.prefab
+  artifactKey: Guid(406f09bf174dbee4a96cda8bf938977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Treys/Spaceships/Prefabs/13.4.prefab using Guid(406f09bf174dbee4a96cda8bf938977e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a42aa4579aa43a2acd26cb089280534') in 0.024313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.148258 seconds.
+  path: Assets/RPG Monster DUO PBR Polyart
+  artifactKey: Guid(ec155f35036d4eb4a4d6e96b1c379934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster DUO PBR Polyart using Guid(ec155f35036d4eb4a4d6e96b1c379934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba859d594d6fbf8b091fb90af5de019') in 0.012425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.188275 seconds.
+  path: Assets/RPG Monster DUO PBR Polyart/Prefabs
+  artifactKey: Guid(1089b12942e441808455dc070ed33145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster DUO PBR Polyart/Prefabs using Guid(1089b12942e441808455dc070ed33145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e783bb7a80ee8b75f5b19cea122078cb') in 0.003675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.332557 seconds.
+  path: Assets/RPG Monster DUO PBR Polyart/Prefabs/PolyartDefault
+  artifactKey: Guid(e5ab37b342f946eb989a0d711b8016ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster DUO PBR Polyart/Prefabs/PolyartDefault using Guid(e5ab37b342f946eb989a0d711b8016ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf727bbedf623035271d22b8cc29438') in 0.011962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.130726 seconds.
+  path: Assets/RPG Monster DUO PBR Polyart/Prefabs/PolyartDefault/SlimePolyart.prefab
+  artifactKey: Guid(a4ec793513574cd49719c4055b630e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster DUO PBR Polyart/Prefabs/PolyartDefault/SlimePolyart.prefab using Guid(a4ec793513574cd49719c4055b630e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b2ec135babfe08f2958503d5a6fd83') in 0.100808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.811091 seconds.
+  path: Assets/RPG Monster DUO PBR Polyart/Prefabs/PBRDefault
+  artifactKey: Guid(5e0287fb244f4d408b3b88d1e60b41c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster DUO PBR Polyart/Prefabs/PBRDefault using Guid(5e0287fb244f4d408b3b88d1e60b41c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a52d949097d648c1c800d58f587b87f') in 0.012228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.126622 seconds.
+  path: Assets/RPG Monster DUO PBR Polyart/Prefabs/PBRDefault/SlimePBR.prefab
+  artifactKey: Guid(928a1377c1cd4515b208fef3a396b8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster DUO PBR Polyart/Prefabs/PBRDefault/SlimePBR.prefab using Guid(928a1377c1cd4515b208fef3a396b8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c643e9ed91eb3dfee40263ab6370077') in 0.425709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 542.425892 seconds.
+  path: Assets/Images/backg.jpg
+  artifactKey: Guid(654216fbe4c94794d8dc2acc62c2ac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/backg.jpg using Guid(654216fbe4c94794d8dc2acc62c2ac4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4a228549c7b67bfc488b5977b13b8b') in 0.031314 seconds 
